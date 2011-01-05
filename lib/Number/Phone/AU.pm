@@ -29,7 +29,7 @@ Number::Phone::AU - Validation for Australian Phone numbers
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -174,6 +174,12 @@ sub _is_fake {
 
     return;
 }
+
+=head1 INTERFACE NOTE
+
+The interface of this module differs significantly from that set forth by
+Number::Phone.  If you're used to using that module, please read the
+documentation carefully.
 
 =head1 AUTHOR
 
